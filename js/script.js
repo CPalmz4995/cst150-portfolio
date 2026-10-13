@@ -97,7 +97,7 @@ contactForm.addEventListener('submit', function(event) {
     }
 
     // Display a confirmation message
-    formMessage.textContent = `Thanks ${name}! Your message has been received.`;
+    formMessage.textContent = `Thanks ${name}! This is a demonstration contact form, so your message has not been sent.`;
 
     // Clear the form
     contactForm.reset();
