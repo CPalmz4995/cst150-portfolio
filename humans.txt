@@ -1,0 +1,10 @@
+/* TEAM */
+Name: Codey Palmer
+Role: Website Developer
+Location: Melbourne, Australia
+
+/* SITE */
+Name: Personal Portfolio
+Technologies: HTML, CSS, JavaScript
+Purpose: CST150 Personal Portfolio Project
+Year: 2026

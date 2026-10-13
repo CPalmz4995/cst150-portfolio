@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Codey Palmer | Portfolio</title>
+
+    <!-- SEO description to help search engines understand the website -->
+    <meta name="description" content="Codey Palmer's personal portfolio showcasing skills and projects in cybersecurity, web development, Python and databases.">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Accessibility link for keyboard users -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ========================================
+         Website Header
+         ======================================== -->
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">Codey Palmer</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ========================================
+         Main Website Content
+         ======================================== -->
+    <main id="main-content"> </main>
+
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-intro">Hello, I'm</p>
+
+                <h1>Codey Palmer</h1>
+
+                <h2>Cybersecurity Student &amp; Aspiring IT Professional</h2>
+
+                <p class="hero-description">
+                    I am a cybersecurity student developing skills in web development,
+                    programming, databases and cybersecurity. This portfolio showcases
+                    some of the projects and skills I have developed throughout my studies.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Me Section -->
+        <section id="about" class="about">
+
+            <div class="section-container">
+
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-content">
+
+                    <div class="about-text">
+
+                        <p>
+                            I'm a cybersecurity student based in Melbourne with an interest
+                            in technology, programming and web development.
+                        </p>
+
+                        <p>
+                            Before studying cybersecurity, I worked as a landscaper.
+                            Changing careers has given me the opportunity to develop new
+                            technical skills in areas such as HTML, CSS, JavaScript,
+                            Python and databases.
+                        </p>
+
+                        <p>
+                            I enjoy learning how technology works, solving problems and
+                            building practical projects that allow me to apply what I
+                            have learned.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+
+            <div class="section-container">
+
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <h3>HTML</h3>
+                        <p>
+                            Creating structured and accessible web pages using
+                            semantic HTML.
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>CSS</h3>
+                        <p>
+                            Styling responsive layouts using Flexbox, Grid and
+                            media queries.
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>
+                            Adding interactivity, event handling and dynamic
+                            content to websites.
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Python</h3>
+                        <p>
+                            Developing programs using functions, classes,
+                            validation and data files.
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Databases</h3>
+                        <p>
+                            Working with structured data, relational concepts
+                            and database systems.
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Cybersecurity</h3>
+                        <p>
+                            Developing knowledge of digital security, cyber
+                            threats and safe computing practices.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+
+            <div class="section-container">
+
+                <h2 class="section-title">Projects</h2>
+
+                <p class="section-intro">
+                    Here are some projects I have completed during my studies.
+                </p>
+
+                <!--
+                    Project cards are generated dynamically using
+                    the project data stored in data.js
+                -->
+                <div class="projects-grid" id="projects-container">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+
+            <div class="section-container">
+
+                <h2 class="section-title">Contact Me</h2>
+
+                <p class="section-intro">
+                    If you would like to get in touch, send me a message
+                    using the form below.
+                </p>
+
+                <form id="contact-form" class="contact-form">
+
+                    <div class="form-group">
+
+                        <label for="name">Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Enter your message"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn primary-btn">
+                        Send Message
+                    </button>
+
+                    <p id="form-message" class="form-message"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         Website Footer
+         ======================================== -->
+    <footer class="site-footer">
+
+        <p>© 2026 Codey Palmer. All rights reserved.</p>
+
+        <p>Built with HTML, CSS and JavaScript.</p>
+
+    </footer>
+
+
+    <!-- ========================================
+         JavaScript Files
+         ======================================== -->
+
+    <!-- Project data must load before script.js -->
+    <script src="js/data.js"></script>
+
+    <!-- Main website JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
